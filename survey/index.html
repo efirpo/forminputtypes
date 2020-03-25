@@ -8,20 +8,41 @@
     <title>Survey Webpage</title>
 
   </head>
-  <body>
+  <body id="color">
     <div class="container">
-      <h1>Would You Rather</h1>
+      <h1>Would You Rather Visit</h1>
       <select class="form-control" id="beverage">
-        <option>Coffee</option>
-        <option>Tea</option>
-        <option>Kombucha</option>
-        <option>Water</option>
+        <option>NE Portland</option>
+        <option>SE Portland</option>
+        <option>Downtown</option>
+        <option>North Portland</option>
       </select>
-
+      <hr>
+      <h1>Would You Rather Have</h1>
+      <div class="radio">
+        <label>
+          <input type="radio" name="doughnuts" value="Blue-Star-Doughnuts" checked>
+          Blue Star Doughnuts
+        </label>
+      </div>  
+      <div class="radio">
+        <label>
+          <input type="radio" name="doughnuts" value="Voodoo-Doughnuts">
+          Voodoo Doughnuts
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="doughnuts" value="Heavenly-Doughnuts">
+          Heavenly Doughnuts
+        </label>
+      </div>
+      <hr>
       <div class="form-group">
         <label for="color">What is your favorite color?</label>
         <input id="color" class="form-control" type="color">
       </div>
+
     </div>
   
   </body>
